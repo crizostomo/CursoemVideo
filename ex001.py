@@ -1,7 +1,7 @@
 name = input('Hey, what is your name?')
 print('It is nice to meet you', name)
 age = input('How old are you')
-print('Oh, so you are', age, '!', 'I am 30 years old', name)
+print('Oh, so you are', age, '!', 'I am Python and I am 30 years old', name)
 adress = input('What is your address?')
 print("The address informed was:", adress)
 print('\n-----------------')
