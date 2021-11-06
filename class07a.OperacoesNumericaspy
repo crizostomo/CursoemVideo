@@ -1,0 +1,18 @@
+name = input('Hey, what is your name?')
+print('Nice to meet you {:>15}: '.format(name))
+print('Nice to meet you {:<15}: '.format(name))
+print('Nice to meet you {:^15}: '.format(name))
+print('Nice to meet you {:=^15}: '.format(name))
+
+print('='*20)
+
+n1 = int(input('Type a number'))
+n2 = int(input('Type another number'))
+sum = n1 + n2
+sub = n1 - n2
+mult = n1 * n2
+div = n1 / n2
+exp = n1 ** n2
+divInt = n1 // n2
+print('The sum is {} \n The subtraction is {}, \n the mult is {}, \n and the div is {}'.format(sum, sub, mult, div), end=' ')
+print('The exp is {}, and the divisionInt is {}'.format(exp, divInt))
