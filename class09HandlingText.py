@@ -24,6 +24,13 @@ print(phrase.upper().count('O'))
 print(len(phrase))
 print(len(phrase.strip()))
 print(phrase.replace('Python', 'Android'))
+print(phrase[5])
+print('curso' in phrase)
+print(phrase.split())
+divided = phrase.split()
+print(divided[1])
+print(divided[2][3])
+
 
 
 
